@@ -1,21 +1,28 @@
 body{
     margin-bottom: -10px;
 }
-.title{
+#title{
     height: 100vh;
-    background-image: url("../img/bat.jpg"); 
+    background-image: url("../img/code.jpg"); 
     background-blend-mode: overlay;
     background-attachment: fixed;
     background-size:cover;
-    background-color: rgba(255,255,255,0.7);
-
+    background-color: rgba(0,0,0,0.7);
    
+}
+.img{
+    position: absolute;
+    left: 50%;
+    top: 20%;
+    transform: translateX(-50%) translateY(-50%);   
+
 }
 .me{
     position: absolute;
     left: 50%;
-    top: 50%;
+    top: 40%;
     transform: translateX(-50%) translateY(-50%);   
+    
 }
 
 .links{
@@ -29,40 +36,80 @@ body{
 li{
     list-style: none;
     float: left;
-    padding: 80px;
+    padding: 50px;
+   
  
 }
 .next{
     position: absolute;
     left: 50%;
-    top: 90%;
-    transform: translateX(-50%) translateY(-50%);   
+    top: 90%
+    
+  
 }
-.about{
+#about{
     height: 100vh;
     background-color: beige;
     margin-top: -20px;
     display: none;
     
 }
-.skills{
+#skills{
     height: 100vh;
     background-color: rosybrown;
     margin-top: -20px;
     display: none;
     
 }
-.project{
+#project{
     height: 100vh;
     background-color: burlywood;
     margin-top: -20px;
     display: none;
     
 }
-.contact{
+#contact{
     height: 100vh;
     background-color: gainsboro;
     margin-top: -20px;
     display: none;
     
+}
+h1{
+    font-family: 'Acme', sans-serif;
+    color: whitesmoke
+   
+}
+
+h2{ 
+    display: none;
+    font-family: 'Acme', sans-serif;
+    color: whitesmoke
+  
+}
+.prev{
+    position: absolute;
+    left: 50%;
+    margin-top: 10px;
+  
+}
+.tooltiptext1{
+    visibility: hidden;
+    font-family: 'Pridi', serif;
+    width: 120px;
+    background-color: #1f1112;
+    color: #fff;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 6px;
+    bottom: 100%;
+    left: 50%;
+    margin-left: -60px; 
+    position: absolute;
+    z-index: 1;
+    border: 1px solid white;
+    padding: 5px;
+}
+li:hover .tooltiptext1{
+    visibility: visible;
 }
