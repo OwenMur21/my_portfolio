@@ -4,42 +4,59 @@
 <head>
     <meta charset="utf-8">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+   <link href="https://fonts.googleapis.com/css?family=Acme|Arimo|Pridi" rel="stylesheet"> 
     <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <link href="css/animate.css" rel="stylesheet" type="text/css">
     <script src="js/jquery.js"></script>
     <script src="js/scripts.js"></script>
 </head>
 
 <body>
-    <div class="title">
+    <div id="title"  class="animated fadeIn">
+    <div class="img">
+ <img src="img/bat.jpg" style="width: 300px;
+    border-radius: 50px;">
+    </div>
         <div class="me">
-            <h1>Hi my name is Owen Muriithi</h1>
+            <h1 id="type"></h1>
             <center>
-                <h2>I am a fullstack developer</h2>
+            <h2 class="logo">I am a fullstack developer</h2>
             </center>
         </div>
-        <button class="next">This</button>
+    
         <div class="links">
             <ul>
-                <li>About me</li>
-                <li>Skills</li>
-                <li>Projects</li>
-                <li>Contact</li>
+                <li><button class="btn btn-info" id="me">About me</button> <span class="tooltiptext1">Learn more about me here</span></li>
+                <li><button class="btn btn-info" id="skill">Skills</button> <span class="tooltiptext1">A peek at my programming skills</span></li>
+                <li><button class="btn btn-info" id="pro">Projects</button> <span class="tooltiptext1">Check out some of my projects</span></li>
+                <li><button class="btn btn-info" id="simu">Contact</button> <span class="tooltiptext1">Contact me here</span></li>
             </ul>
         </div>
 
     </div>
 
-    <div class="about">
+    <div id="about" class="animated rotateIn">
+      <button class="prev" id="prev1"><span class="glyphicon glyphicon-chevron-up"></span></button>
         <h1>Me</h1>
+      <button class="next" id="next1"><span class="glyphicon glyphicon-chevron-down"></span></button>
     </div>
-    <div class="skills">
+
+    <div id="skills" class="animated pulse">
+      <button class="prev" id="prev2"><span class="glyphicon glyphicon-chevron-up"></span></button>
         <h1>Me</h1>
+      <button class="next" id="next2"><span class="glyphicon glyphicon-chevron-down"></span></button>
     </div>
-    <div class="project">
+
+    <div id="project" class="animated zoomIn">
+    <button class="prev" id="prev3"><span class="glyphicon glyphicon-chevron-up"></span></button>
         <h1>Me</h1>
+    <button class="next" id="next3"><span class="glyphicon glyphicon-chevron-down"></span></button>
+      
     </div>
-    <div class="contact">
+    <div id="contact" class=" animated rubberBand">
+    <button class="prev" id="prev4"><span class="glyphicon glyphicon-chevron-up"></span></button>
         <h1>Me</h1>
+    
     </div>
 
 </body>
