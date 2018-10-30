@@ -49,13 +49,13 @@ body{
 }
 #about{
     height: 100vh;
-    background-color: #b8b8b8;
+    background-color: #02182b;
     display: none;
     
 }
 #skills{
     height: 100vh;
-    background-color: rosybrown;
+    background-color: white;
     display: none;
     
 }
@@ -111,4 +111,20 @@ li:hover .tooltiptext1{
 }
 ul .nav navbar-nav{
     margin-left: 100px;
+}
+#name{
+    text-align: center;
+}
+hr{
+    width: 50px;
+}
+img{
+    max-width: 300px;;
+}
+p{
+    color: whitesmoke;
+    font-size: 20px;
+}
+#tellme{
+    width: 80%;
 }
