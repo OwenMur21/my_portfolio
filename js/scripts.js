@@ -43,33 +43,48 @@ $(document).ready(function(){
         $("#skills").hide();
         $("#project").hide();
     })
-    $("#prev1").click(function(){
+    $(".navbar-brand").click(function(){
         $("#title").show();
         $("#about").hide();
+        $("#skills").hide();
+        $("#project").hide();
+        $("#contact").hide();
     })
 
-    $("#next1").click(function(){
+    $(".next1").click(function(){
         $("#skills").show();
         $("#about").hide();
+        $("#project").hide();
+        $("#contact").hide();
+        $("#title").hide();
     })
 
-    $("#prev2").click(function(){
+    $(".prev2").click(function(){
         $("#about").show();
         $("#skills").hide();
+        $("#contact").hide();
+        $("#title").hide();
+        $("#project").hide();
     })
 
-    $("#next2").click(function(){
+    $(".next2").click(function(){
         $("#project").show();
         $("#skills").hide();
+        $("#contact").hide();
+        $("#about").hide();
+        $("#title").hide();
     })
     $("#prev3").click(function(){
         $("#about").show();
         $("#project").hide();
     })
 
-    $("#next3").click(function(){
+    $(".next3").click(function(){
         $("#contact").show();
         $("#project").hide();
+        $("#skills").hide();
+        $("#about").hide();
+        $("#title").hide();
     })
     $("#prev4").click(function(){
         $("#project").show();

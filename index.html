@@ -13,10 +13,7 @@
 
 <body>
     <div id="title"  class="animated fadeIn">
-    <div class="img">
- <img src="img/bat.jpg" style="width: 300px;
-    border-radius: 50px;">
-    </div>
+    
         <div class="me">
             <h1 id="type"></h1>
             <center>
@@ -26,35 +23,81 @@
     
         <div class="links">
             <ul>
-                <li><button class="btn btn-info" id="me">About me</button> <span class="tooltiptext1">Learn more about me here</span></li>
-                <li><button class="btn btn-info" id="skill">Skills</button> <span class="tooltiptext1">A peek at my programming skills</span></li>
-                <li><button class="btn btn-info" id="pro">Projects</button> <span class="tooltiptext1">Check out some of my projects</span></li>
-                <li><button class="btn btn-info" id="simu">Contact</button> <span class="tooltiptext1">Contact me here</span></li>
+                <li class="opt"><button class="btn btn-info" id="me">About me</button> <span class="tooltiptext1">Learn more about me here</span></li>
+                <li class="opt"><button class="btn btn-info" id="skill">Skills</button> <span class="tooltiptext1">A peek at my programming skills</span></li>
+                <li class="opt"><button class="btn btn-info" id="pro">Projects</button> <span class="tooltiptext1">Check out some of my projects</span></li>
+                <li class="opt"><button class="btn btn-info" id="simu">Contact</button> <span class="tooltiptext1">Contact me here</span></li>
             </ul>
         </div>
 
     </div>
 
     <div id="about" class="animated rotateIn">
-      <button class="prev" id="prev1"><span class="glyphicon glyphicon-chevron-up"></span></button>
-        <h1>Me</h1>
-      <button class="next" id="next1"><span class="glyphicon glyphicon-chevron-down"></span></button>
+    <nav class="navbar navbar-default">
+  <div class="container">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#title">Home</a>
     </div>
-
-    <div id="skills" class="animated pulse">
-      <button class="prev" id="prev2"><span class="glyphicon glyphicon-chevron-up"></span></button>
+    <ul class="nav navbar-nav">
+      <li><a href="#skills" class="next1">Skills</a></li>
+      <li><a href="#project" class="next2">Projects</a></li>
+      <li><a href="#contact" class="next3">Contact</a></li>
+    </ul>
+  </div>
+</nav>
+      
         <h1>Me</h1>
-      <button class="next" id="next2"><span class="glyphicon glyphicon-chevron-down"></span></button>
+   
+    </div>
+ 
+    <div id="skills" class="animated pulse">
+   <nav class="navbar navbar-default">
+  <div class="container">
+    <div class="navbar-header">
+           <a class="navbar-brand" href="#title" class="prev1">Home</a>
+    </div>
+    <ul class="nav navbar-nav">
+     <li><a href="#skills" class="prev2">About</a></li>
+      <li><a href="#project" class="next2">Projects</a></li>
+      <li><a href="#contact" class="next3">Contact</a></li>
+    </ul>
+  </div>
+</nav>
+        <h1>Me</h1>
+  
     </div>
 
     <div id="project" class="animated zoomIn">
-    <button class="prev" id="prev3"><span class="glyphicon glyphicon-chevron-up"></span></button>
+  <nav class="navbar navbar-default">
+  <div class="container">
+    <div class="navbar-header">
+          <a class="navbar-brand" href="#title" id="prev1">Home</a>
+    </div>
+    <ul class="nav navbar-nav">
+
+       <li><a href="#skills" class="prev2">About</a></li>
+      <li><a href="#project" class="next1">Skills</a></li>
+      <li><a href="#contact" class="next3">Contact</a></li>
+    </ul>
+  </div>
+</nav>
         <h1>Me</h1>
-    <button class="next" id="next3"><span class="glyphicon glyphicon-chevron-down"></span></button>
+  
       
     </div>
     <div id="contact" class=" animated rubberBand">
-    <button class="prev" id="prev4"><span class="glyphicon glyphicon-chevron-up"></span></button>
+  <nav class="navbar navbar-default">
+  <div class="container">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#title" id="prev1">Home</a>
+    </div>
+    <ul class="nav navbar-nav">
+      <li><a href="#skills" class="prev2">About</a></li>
+      <li><a href="#project" class="next1">Skills</a></li>
+      <li><a href="#contact" class="next2">Projects</a></li>
+    </ul>
+  </div>
+</nav>
         <h1>Me</h1>
     
     </div>

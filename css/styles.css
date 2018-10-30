@@ -33,7 +33,7 @@ body{
     list-style: none;
     
 }
-li{
+.opt{
     list-style: none;
     float: left;
     padding: 50px;
@@ -50,28 +50,24 @@ li{
 #about{
     height: 100vh;
     background-color: #b8b8b8;
-    margin-top: -20px;
     display: none;
     
 }
 #skills{
     height: 100vh;
     background-color: rosybrown;
-    margin-top: -20px;
     display: none;
     
 }
 #project{
     height: 100vh;
     background-color: burlywood;
-    margin-top: -20px;
     display: none;
     
 }
 #contact{
     height: 100vh;
     background-color: gainsboro;
-    margin-top: -20px;
     display: none;
     
 }
@@ -112,4 +108,7 @@ h2{
 }
 li:hover .tooltiptext1{
     visibility: visible;
+}
+ul .nav navbar-nav{
+    margin-left: 100px;
 }
