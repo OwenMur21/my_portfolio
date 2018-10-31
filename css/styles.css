@@ -55,13 +55,13 @@ body{
 }
 #skills{
     height: 100vh;
-    background-color: white;
+    background-color: #02182b;
     display: none;
     
 }
 #project{
     height: 100vh;
-    background-color: burlywood;
+    background-color:  #02182b;
     display: none;
     
 }
@@ -113,13 +113,14 @@ ul .nav navbar-nav{
     margin-left: 100px;
 }
 #name{
+    margin-top: 50px;
     text-align: center;
 }
 hr{
     width: 50px;
 }
-img{
-    max-width: 300px;;
+#this{
+    max-width: 300px;
 }
 p{
     color: whitesmoke;
@@ -128,3 +129,44 @@ p{
 #tellme{
     width: 80%;
 }
+
+i{
+    font-size: 70px;
+    color: whitesmoke;
+}
+.egs{
+    color: black;
+    font-family: 'Arvo', serif;
+}
+.egsz{
+    color: black;
+    font-size: 16px;
+    text-align: justify;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-family: 'Karla', sans-serif;
+}
+img{
+    width: 100%;
+    height: 70%;
+    transition: all 0.3s ease 0s;
+   
+}
+.well{
+    padding: 0;
+    box-shadow: 0 14px 28px rgba(255, 255, 255, 0.25), 0 10px 10px rgba(255, 255, 255, 0.22);
+    height: 450px;
+}
+.rojec{
+    /* height: 70%; */
+    background-color: black;
+    overflow: hidden;
+}
+#link{
+    margin-top: 35px;
+}
+img:hover{
+    transform: scale(1.2);
+    opacity: 1;
+   
+ }
