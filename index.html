@@ -3,13 +3,16 @@
 
 <head>
     <meta charset="utf-8">
+    
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
    <link href="https://fonts.googleapis.com/css?family=Acme|Arimo|Pridi" rel="stylesheet"> 
    <link href="https://fonts.googleapis.com/css?family=Arvo|Karla" rel="stylesheet"> 
    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.2/css/all.css" integrity="sha384-/rXc/GQVaYpyDdyxK+ecHPVYJSN9bmVFBvjA/9eOB+pb3F2w2N6fc5qB9Ew5yIns" crossorigin="anonymous">
     <link href="css/styles.css" rel="stylesheet" type="text/css">
     <link href="css/animate.css" rel="stylesheet" type="text/css">
-    <script src="js/jquery.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+ 
     <script src="js/scripts.js"></script>
 </head>
 
@@ -25,16 +28,22 @@
     
         <div class="links">
             <ul>
-                <li class="opt"><button class="btn btn-info" id="me">About me</button> <span class="tooltiptext1">Learn more about me here</span></li>
-                <li class="opt"><button class="btn btn-info" id="skill">Skills</button> <span class="tooltiptext1">A peek at my programming skills</span></li>
-                <li class="opt"><button class="btn btn-info" id="pro">Projects</button> <span class="tooltiptext1">Check out some of my projects</span></li>
-                <li class="opt"><button class="btn btn-info" id="simu">Contact</button> <span class="tooltiptext1">Contact me here</span></li>
+                <li class="opt"><button class="btn btn-info btn-lg" id="me">About me</button> <span class="tooltiptext1">Learn more about me here</span></li>
+                <li class="opt"><button class="btn btn-info btn-lg" id="skill">Skills</button> <span class="tooltiptext1">A peek at my programming skills</span></li>
+                <li class="opt"><button class="btn btn-info btn-lg" id="pro">Projects</button> <span class="tooltiptext1">Check out some of my projects</span></li>
             </ul>
         </div>
+<div class="panel-footer">
+<div class="foot">
+ <span class="glyphicon glyphicon-copyright-mark"></span>
+  Owen Muriithi
+    <i class="fab fa-github" id="git"></i>
+  </div>
 
+   </div>
     </div>
 
-    <div id="about" class="animated rotateIn">
+    <div id="about" class="animated fadeInUp">
     <nav class="navbar navbar-default">
   <div class="container">
     <div class="navbar-header">
@@ -43,7 +52,6 @@
     <ul class="nav navbar-nav">
       <li><a href="#skills" class="next1">Skills</a></li>
       <li><a href="#project" class="next2">Projects</a></li>
-      <li><a href="#contact" class="next3">Contact</a></li>
     </ul>
   </div>
 </nav>
@@ -59,11 +67,7 @@
      
       
         <p>I am a motivated, committed and open-minded full stack developer, looking to secure a rewarding career in the Software Development sector and further develop my problem-solving skills and knowledge in a practical and fast-paced environment. My career goal is to venture in the gaming devolpment sector and learn new ways to animate and work with 3D figures.</p>
-        <br>
-        <br>
          <p>I enjoy working in teams. I believe everyone has something to bring to the table enabling the whole team to learn something new. I am very outgoing and I also enjoy playing all kinds of games, from video games to team games.</p>
-         <br>
-        <br>
          <p> "Put your heart, mind and soul into even your smallest acts. This is the secret of success."- Swami Sivanda.  </p>
 
      
@@ -81,7 +85,6 @@
     <ul class="nav navbar-nav">
      <li><a href="#skills" class="prev2">About</a></li>
       <li><a href="#project" class="next2">Projects</a></li>
-      <li><a href="#contact" class="next3">Contact</a></li>
     </ul>
   </div>
 </nav>
@@ -95,22 +98,31 @@
           <br>
         <br>
          <div class="container">
-         <div class="col-md-3">
-<i class="fab fa-python"></i>
-<p>I am highly competent in the use of this programming language especially for the backend functionality it offers. With the use of django and flask frameworks, it makes building web applications much easier.</p>
+         <div class="col-md-4">
+  <img src="img/django.png" >
          </div>
-        <div class="col-md-3">
-<i class="fab fa-angular"></i>
-<p>A typescript open source framework that enhances the front-end side of an application. Angular helps in building user-friendly applications with the help of its rich features that make web applications more dynamic.</p>
+        <div class="col-md-4">
+  <img src="img/angular.png" class="langas">
+
          </div>
-          <div class="col-md-3">
-<i class="fab fa-js"></i>
-<p>Javascript is crucial in making web applications and websites interactive. Javascript is quite fast and compatible with most web browsers.</p>
+          <div class="col-md-4">
+  <img src="img/flask.png" class="langas">
+
+         </div>
+<br>
+<br>
+          <div class="col-md-4">
+  <img src="img/css.png" id="css">
+
+         </div>
+                 <div class="col-md-4">
+  <img src="img/script.png" class="langas">
+
          </div>
 
-          <div class="col-md-3">
-<i class="fab fa-html5"></i>  <i class="fab fa-css3-alt"></i>
-<p>At the heart of every web application and website is HTML and CSS for the layout of the content and its appearance respectively. Knowledge in this is also very crucial.</p>
+          <div class="col-md-4">
+  <img src="img/html.png" class="langas">
+
          </div>
      
 
@@ -131,7 +143,6 @@
 
        <li><a href="#skills" class="prev2">About</a></li>
       <li><a href="#project" class="next1">Skills</a></li>
-      <li><a href="#contact" class="next3">Contact</a></li>
     </ul>
   </div>
 </nav>
@@ -148,25 +159,63 @@
             <div class="rojec">
             <img src="img/newz.png" id="myImg"> 
          </div>
-         <div id="myModal" class="modal">
-  <span class="close">&times;</span>
-  <img class="modal-content" id="img01">
-  <div id="caption"></div>
-</div>
-        <a href="" class="btn btn-info" id="link">View Site</a>
+         
+<ul>
+        <li><a href="" class="btn btn-info" id="link"><i class="far fa-eye" id="obs"> View Site</i></a></li>
+
+       
+          
+         </ul>
+         
            </div>
          </div>
         <div class="col-md-3">
          <div class="well">
+              <h3 class="egs">Safe Space App</h2>
+           <p class="egsz">This is a flask based app which creates a family friendly  safeenvironment enhanced by the use of profanity filters and giving users random usernames to enable anonymity.</p>
+            <div class="rojec">
+            <img src="img/screen2.png" id="myImg"> 
+         </div>
+         
+<ul>
+        <li><a href="https://thissafe-space.herokuapp.com/" class="btn btn-info" id="link"><i class="far fa-eye" id="obs"> View Site</i></a></li>
+
+       
+          
+         </ul>
            </div>
          </div>
           <div class="col-md-3">
            <div class="well">
+                <h3 class="egs">Deep or Derp</h2>
+           <p class="egsz">This is an angular app where people get to post quotes which can be upvoyes or downvoted</p>
+            <div class="rojec">
+            <img src="img/screen3.png" id="myImg"> 
+         </div>
+         
+<ul>
+        <li><a href="" class="btn btn-info" id="link"><i class="far fa-eye" id="obs"> View Site</i></a></li>
+
+       
+          
+         </ul>
            </div>
          </div>
 
           <div class="col-md-3">
            <div class="well">
+                <h3 class="egs">Ozzy Collage</h2>
+           <p class="egsz">This is a django based that contains various photos arranged by location and category, whereby you can click on a photo to see more details about it.</p>
+            <div class="rojec">
+            <img src="img/collage.png" id="myImg"> 
+         </div>
+         
+<ul>
+        <li><a href="https://ozzycollage.herokuapp.com/" class="btn btn-info" id="link"><i class="far fa-eye" id="obs"> View Site</i></a></li>
+
+       
+          
+         </ul>
            </div>
          </div>
      
@@ -178,27 +227,8 @@
   
       
     </div>
-    <div id="contact" class=" animated rubberBand">
-  <nav class="navbar navbar-default">
-  <div class="container">
-    <div class="navbar-header">
-      <a class="navbar-brand" href="#title" id="prev1">Home</a>
-    </div>
-    <ul class="nav navbar-nav">
-      <li><a href="#skills" class="prev2">About</a></li>
-      <li><a href="#project" class="next1">Skills</a></li>
-      <li><a href="#contact" class="next2">Projects</a></li>
-    </ul>
-  </div>
-</nav>
-        <h1>Me</h1>
-    
-    </div>
 
 </body>
 
 
 </html>
-<script>
-
-</script>

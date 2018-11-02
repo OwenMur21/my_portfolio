@@ -3,11 +3,12 @@ body{
 }
 #title{
     height: 100vh;
-    background-image: url("../img/code.jpg"); 
+    background-image: url("../img/bina.jpg"); 
     background-blend-mode: overlay;
     background-attachment: fixed;
     background-size:cover;
     background-color: rgba(0,0,0,0.7);
+    
    
 }
 .img{
@@ -21,7 +22,8 @@ body{
     position: absolute;
     left: 50%;
     top: 40%;
-    transform: translateX(-50%) translateY(-50%);   
+    transform: translateX(-50%) translateY(-50%); 
+    font-size: 30px;  
     
 }
 
@@ -156,6 +158,7 @@ img{
     padding: 0;
     box-shadow: 0 14px 28px rgba(255, 255, 255, 0.25), 0 10px 10px rgba(255, 255, 255, 0.22);
     height: 450px;
+    transition: all 0.3s ease 0s;
 }
 .rojec{
     /* height: 70%; */
@@ -163,10 +166,54 @@ img{
     overflow: hidden;
 }
 #link{
-    margin-top: 35px;
+    margin-top: 20px;
 }
 img:hover{
-    transform: scale(1.2);
+    /* transform: scale(1.2); */
     opacity: 1;
    
  }
+ .well:hover{
+    transition: .3s ease;
+    transform: translateY(-7px);
+ }
+#obs{
+     font-size: 14px;
+ }
+ ul{
+     list-style-type: none;
+     padding: 0%
+ }
+
+ .panel-footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgba(2, 47, 59, 0.9);
+    font-family: 'Kanit', sans-serif;
+    font-size: 18px;
+    border-color: #02182b;
+    color: whitesmoke;
+    
+  
+  }
+  .foot{
+      text-align: center;
+  }
+  btn-group-lg > .btn, .btn-lg{
+      border-radius: 30px;
+  }
+ .langas{
+     width: 200px;
+     height: 200px;
+ }
+ #css{
+     width: 150px;;
+ }
+
+ #git{
+    font-size: 30px;
+    float: right;
+ }
+
