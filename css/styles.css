@@ -324,3 +324,7 @@ img:hover{
     margin-top: -45px;
     padding: 5px;
 }
+blockquote{
+    color: whitesmoke;
+    border-left: none;
+}
