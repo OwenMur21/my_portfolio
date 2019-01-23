@@ -131,6 +131,7 @@ p{
 }
 #tellme{
     width: 80%;
+    margin-top: -45px;
 }
 
 i{
@@ -316,4 +317,10 @@ img:hover{
 #git:hover .hub {
     visibility: visible;
 }
-
+.mimi{
+    margin-top: -40px;
+}
+#zenye{
+    margin-top: -45px;
+    padding: 5px;
+}
